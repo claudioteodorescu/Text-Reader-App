@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #171717;
+  color: #e0bf02;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+textarea {
+  width: 100%;
+  display: block;
+  color: #e0bf02;
+  border: none;
+  resize: none;
+  outline: none;
+  padding: 1rem;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.01);
+}
+
+textarea:focus {
+  background-color: rgba(255, 255, 255, 0.04);
+}
+
+.container {
+  width: 70%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+}
+
+.controls-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.controls-wrapper label {
+  font-size: 1.5rem;
+}
+
+.controls-wrapper input {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  outline: none;
+  border: none;
+  color: #e0bf02;
+  background: rgba(255, 255, 255, 0.01);
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  width: 100px;
+}
+
+.controls-wrapper button {
+  background: #171717;
+  color: #e0bf02;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.controls-wrapper button:hover {
+  background: #e0bf02;
+  color: #171717;
+}
+
+.controls-wrapper button:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.disabled {
+  cursor: not-allowed;
+}
+
+.disabled:active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+/*# sourceMappingURL=style.css.map */
